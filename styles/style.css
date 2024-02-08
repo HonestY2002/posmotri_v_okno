@@ -41,7 +41,8 @@ ol {
 
 .content {
   display: flex;
-  gap: 28px;
+  gap: 30px;
+  padding-left: 30px;
 }
 
 .search-form {
@@ -278,10 +279,4 @@ ol {
   align-items: center;
   justify-content: center;
   background: #545050;
-}
-
-.error-template {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
