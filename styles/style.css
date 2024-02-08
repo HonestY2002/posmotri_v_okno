@@ -11,13 +11,13 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
   align-items: center;
+  margin: auto;
 }
 
 h1,
@@ -59,7 +59,12 @@ ol {
 
 .search-form__label-text {
   cursor: pointer;
-  position: relative;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .search-form__label-text:hover {
@@ -184,8 +189,6 @@ ol {
 }
 
 .result__video {
-  display: flex;
-  position: relative;
   width: 711px;
   height: 386px;
 }
@@ -193,6 +196,7 @@ ol {
 .result__video-cantainer {
   inline-size: 711px;
   block-size: 386px;
+  position: relative;
 }
 
 .content__list-item {
