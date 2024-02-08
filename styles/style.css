@@ -44,9 +44,6 @@ ol {
   grid-template-columns: 711px auto;
   gap: 30px;
   inline-size: 1140px;
-  padding-top: 133px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .search-form {
