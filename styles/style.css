@@ -75,7 +75,7 @@ ol {
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  margin-bottom: 7px;
   border-style: none;
 }
 
@@ -123,7 +123,7 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
-  gap: 5px;
+  gap: 22px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -138,6 +138,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
+  
 }
 
 .button {
@@ -168,7 +169,6 @@ ol {
   padding: 6px 145px;
   display: block;
   margin-top: 30px;
-  margin-bottom: 5px;
 }
 
 .search-form__submit-button {
@@ -185,7 +185,6 @@ ol {
   max-height: 298px;
   overflow: auto;
   position: relative;
-  padding-bottom: 1px;
 }
 
 .content__details {
@@ -198,7 +197,7 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  gap: 16px;
+  gap: 20px;
 }
 
 .result__video {
