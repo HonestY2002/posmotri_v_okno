@@ -64,6 +64,7 @@ ol {
   letter-spacing: 0em;
   text-align: left;
   position: relative;
+  gap: 6px;
 }
 
 .search-form__label-text:hover {
@@ -148,8 +149,13 @@ ol {
   width: 399px;
   padding: 6px 145px;
   display: block;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.more-button:focus {
+  outline: 1px solid white;
 }
 
 .search-form__submit-button {
@@ -162,6 +168,14 @@ ol {
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
+}
+
+.search-form__submit-button:hover {
+  outline: 1px solid white;
+}
+
+.search-form__submit-button:focus {
+  outline: 1px solid white;
 }
 
 .content__list {
@@ -251,6 +265,10 @@ ol {
   background: rgba(84, 80, 80, 1);
 }
 
+.content__card-link_current:focus {
+  background: rgba(84, 80, 80, 1);
+}
+
 .content__video-card-title {
   font-family: "Oswald", sans-serif;
   font-size: 30px;
@@ -279,7 +297,4 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
-}
-
-.error-template {
 }
