@@ -177,7 +177,7 @@ ol {
   width: 194px;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 24px;
   font-style: normal;
   line-height: 22px;
   letter-spacing: 0em;
@@ -196,6 +196,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
+  height: 534px;
   gap: 26px;
 }
 
@@ -225,7 +226,7 @@ ol {
 
 .content__video-card {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 200px 1fr;
   align-items: center;
 }
 
@@ -284,18 +285,18 @@ ol {
   text-transform: uppercase;
   line-height: 30px;
   font-style: normal;
-  text-overflow: ellipsis;
+  max-width: 200px;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 200px;
+  text-overflow: ellipsis;
 }
 
 .content__video-card-description {
   font-weight: 400px;
   font-size: 18px;
   line-height: 16.2px;
-  max-width: 200px;
   font-style: normal;
+  max-width: 200px;
 }
 
 .visually-hidden {
