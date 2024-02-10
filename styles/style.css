@@ -119,6 +119,7 @@ ol {
   width: 19px;
   height: 19px;
   border: 1px solid white;
+  letter-spacing: 20px;
 }
 
 .search-form__checkbox-list {
@@ -138,7 +139,6 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
-  
 }
 
 .button {
@@ -185,6 +185,10 @@ ol {
   max-height: 298px;
   overflow: auto;
   position: relative;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content__details {
@@ -253,6 +257,10 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline;
+}
+
+.ontent__card-link:focus {
+  outline: none;
 }
 
 .content__card-link:focus-visible {
